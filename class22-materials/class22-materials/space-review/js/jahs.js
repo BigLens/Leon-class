@@ -17,3 +17,21 @@ rockPapperScissors();
 
 
 
+function Detonator(height, hair, color, number){
+	this.height = height
+	this.hair = hair
+	this.color = color
+	this.number = number
+	this.algo = function(){
+		console.log(`He's so ${height}`);
+	}
+	this.menD = function(){
+		console.log(`Harry closed ${number} doors`);
+	}
+}
+
+let newConstruct = new Detonator('Tall', 'Hairy', 'Grey', 5);
+
+newConstruct.algo();
+newConstruct.menD();
+
