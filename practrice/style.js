@@ -57,3 +57,6 @@ function sortin(arr) {
 sortin([1, 2, 8, 4]);
 
 // console.log(arrowF(numbersArr));
+
+const objectArr = [{name: 'Joel', mail: 'adedejibioku@gmail.com}];
+console.log(objectArr[0]?.mail);
