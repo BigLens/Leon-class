@@ -52,8 +52,8 @@ function sortin(arr) {
     let newArr = arr.sort(function(a, b) {
         return a - b;
     })
-    console.log(newArr[1] + newArr[newArr.length -2]);
+    console.log(newArr[1] + newArr[newArr.length -4]);
 }
-sortin([1, 2, 8, 4]);
+sortin([1, 2, 8, 4])
 
 // console.log(arrowF(numbersArr));
