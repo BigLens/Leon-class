@@ -60,3 +60,19 @@ sortin([1, 2, 8, 4])
 
 const objectArr = [{name: 'Joel', mail: 'adedejibioku@gmail.com}];
 console.log(objectArr[0]?.mail);
+
+const Car{
+	constructor(car,model,color)
+	{
+		this.car=car
+		this.model=model
+		this.color=color
+	}
+	startCar(){
+		console.log('start car')
+	}
+}
+
+const newCar = new Car('lexus','360','red')
+
+newCar.startCar();
